@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toplayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:paddingEnd="10dp"
+            android:background="@color/pink">
+            <TextView
+                android:id="@+id/event"
+                android:layout_width="355dp"
+                android:layout_height="50dp"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:paddingEnd="10dp"
+                android:background="@color/pink">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center|left"
+                    android:alpha=".7"
+                    android:background="@drawable/ic_alarm_white_24dp" />
+
+                <TextView
+                    android:id="@+id/time_and_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha=".8"
+                    android:padding="10dp"
+                    android:text=" "
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+
+</LinearLayout>
